@@ -48,7 +48,7 @@ select an image from your file system
 <|{img_path}|image|>
 
 <|{prob}|indicator|value={prob}|min=0|max=100|width=25vw|>
->
+|>
 """
 
 def on_change(state, var_name, var_val):
