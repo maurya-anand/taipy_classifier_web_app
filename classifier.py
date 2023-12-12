@@ -57,12 +57,6 @@ def on_change(state, var_name, var_val):
         state.prob = round(top_prob * 100)
         state.pred = "this is a " + top_pred
         state.img_path = var_val
-    #print(var_name, var_val)
-
-
-
-
-
 
 app = Gui(page=index)
 
