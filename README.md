@@ -13,7 +13,7 @@ A taipy based GUI application that can classify images of animals and vehicles!
 - The user provided images were loaded with Pillow: https://github.com/python-pillow/Pillow
 - And Numpy was used to normalize those images: https://github.com/numpy/numpy
 
-## Credits
-
-- Neural Pattern from: freepik.com
-- Brain Icon from: flaticon.com
+## Setup
+- Create a new environment `mamba env create -f requirements.yml`
+- Activate the environment: `mamba activate taipy`
+- Start the web app: `python classifier.py`

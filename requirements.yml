@@ -1,0 +1,9 @@
+name: taipy
+dependencies:
+  - python==3.11
+  - pip
+  - pillow
+  - numpy
+  - tensorflow
+  - pip:
+    - taipy
