@@ -32,13 +32,13 @@ def predict_image(model, path_to_img):
     return top_prob, top_pred
     
 content = ""
-img_path = "placeholder_image.png"
+img_path = "static/img/placeholder_image.png"
 prob = 0
 pred = ""
 
 index = """
 <|text-center|
-<|{"logo.png"}|image|width=25vw|>
+<|{"static/img/logo.png"}|image|width=25vw|>
 
 <|{content}|file_selector|extensions=.png|>
 select an image from your file system
